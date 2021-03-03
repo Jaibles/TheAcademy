@@ -60,6 +60,24 @@ input:disabled {
   @apply border-gray-200;
 }
 
+.two-x {
+  max-width: 296px;
+}
+
+.this {
+  width: 95%;
+  display: flex;
+  margin-top: -30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.line {
+  height: 60px;
+  border-left: 1px solid black;
+  width: 1px;
+}
 
 .tooltip .tooltip-text {
   visibility: hidden;
@@ -80,5 +98,5 @@ input:disabled {
 
 .hero-image-right {
   top: 60px;
-  right: 0;
+  right: -24px;
 }
