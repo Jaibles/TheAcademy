@@ -78,8 +78,7 @@ input:disabled {
   font-family: 'Arnhem', serif;
 }
 
-.badge {
-  @apply uppercase inline-flex items-center px-1 py-0 rounded bg-gray-200 text-gray-800;
-  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-  font-size: 10px;
+.hero-image-right {
+  top: 60px;
+  right: 0;
 }
